@@ -10,10 +10,10 @@ end
 
 # at least one pass
 describe command("ptmctl") do
-  its(:stdout) { should match /pass / }
+  its(:stdout) { should match(/pass /) }
 end
 
 # no fails!
 describe command("ptmctl") do
-  its(:stdout) { should_not match /fail / }
+  its(:stdout) { should_not match(/fail /) }
 end

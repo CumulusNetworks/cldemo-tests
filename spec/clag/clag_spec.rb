@@ -9,5 +9,5 @@ describe service('clagd') do
 end
 
 describe command('clagctl') do
-    its(:stdout) { should match /The peer is alive/ }
+    its(:stdout) { should match(/The peer is alive/) }
 end
