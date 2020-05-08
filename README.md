@@ -1,3 +1,6 @@
+# DEPRECATED
+## This repo is no longer maintained.<br>For a list of current demos, please visit:<br>https://gitlab.com/cumulus-consulting/goldenturtle/<br><br><br>
+
 # cldemo Tests
 
 The [cldemo](https://github.com/CumulusNetworks/cldemo) tests are a set of tests for the various [Cumulus Workbench](http://cumulusnetworks.com/cumulus-workbench/) demos. They can be used to test that the demos are working correctly, or as a basis for writing your own tests for your [Cumulus Linux](http://cumulusnetworks.com/product/overview/) deployments.
